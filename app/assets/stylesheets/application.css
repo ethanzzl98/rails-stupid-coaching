@@ -13,3 +13,55 @@
  *= require_tree .
  *= require_self
  */
+html, body {
+  background-color: darkslategray;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: rgba(0,0,0,0.1);
+  border: 2px solid white;
+  border-radius: 12px;
+  padding: 50px 100px;
+}
+
+h1 {
+  margin: 0;
+  margin-bottom: 1em;
+  color:antiquewhite
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  background-color: rgba(0,0,0,0.1);
+  color: white;
+  border: 1px solid yellow;
+  margin-bottom: 10px;
+  padding: 0 2ex;
+}
+
+.container a {
+  display: inline-block;
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 999px;
+  text-decoration: none;
+}
+
+.container a:visited {
+  color: white;
+
+}
